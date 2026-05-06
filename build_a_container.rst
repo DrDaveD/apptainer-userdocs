@@ -413,6 +413,12 @@ This flag allows you to pass the location of a public key to encrypt the
 container file system at build time. See :ref:`encrypted containers
 <encryption>` for more details.
 
+``--reproducible``
+==================
+
+Use the "created" date of the source image, as the ``SOURCE_DATE_EPOCH``.
+This causes the build to be reproducible (i.e. same output every time).
+
 ``--sandbox``
 =============
 
