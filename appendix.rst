@@ -76,7 +76,7 @@ below with their respective functionality.
    Defaults to the host architecture.
 
 #. **{ENVPREFIX}_BUILD_ARCH_VARIANT**: Set the architecture variant
-   (e.g. ``v2``) to build for.
+   (e.g. ``v8``) to build for.
    Defaults to the variant of the host architecture.
 
 ``C``
@@ -413,7 +413,7 @@ below with their respective functionality.
    Defaults to the host architecture.
 
 #. **{ENVPREFIX}_PULL_ARCH_VARIANT**: Set the architecture variant
-   (e.g. ``v2``) to pull from a ``library://`` or OCI source.
+   (e.g. ``v8``) to pull from a ``library://`` or OCI source.
    Defaults to the variant of the host architecture.
 
 #. **{ENVPREFIX}_PULL_NAME**: Specifies a custom image name when
